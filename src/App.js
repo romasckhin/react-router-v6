@@ -1,9 +1,8 @@
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import AboutPage from "./components/AboutPage";
 import InfoPage from "./components/InfoPage";
 import HomePage from "./components/HomePage";
 import NotFoundPage from "./components/NotFoundPage";
-import styled from 'styled-components'
 import Layout from "./components/layout/Layout";
 import './App.css'
 

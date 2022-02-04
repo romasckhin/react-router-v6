@@ -8,8 +8,5 @@
 
 
 .active-link {
-    color: rgb(68, 79, 86);
-    cursor: default;
-    font-weight: bold;
-    border-left: 3px solid #9cb9c9;
+    text-decoration: none;
 }

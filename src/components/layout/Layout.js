@@ -1,28 +1,20 @@
-import {Link, NavLink, Outlet} from 'react-router-dom'
+import {Outlet} from 'react-router-dom'
 import styled from "styled-components";
+import CustomLink from "./CustomLink";
+
 
 const Layout = () => {
 
-    const linkStyle = {
-        textDecoration: 'none',
-        fontSize: '20px',
-
-    }
-
-    const setActive = ({isActive}) => isActive ? 'active-link' : ''
-
-
-    return (
+        return (
         <>
 
             <Header>
 
-                <NavLink style={linkStyle} to='/' className={setActive}> Home </NavLink>
+                <CustomLink  to='/' > Home </CustomLink>
 
-                <NavLink style={linkStyle} to='/about' className={setActive}> About </NavLink>
+                <CustomLink to='/about' > About </CustomLink>
 
-                <NavLink style={linkStyle} to='/info' className={setActive}> Info </NavLink>
-
+                <CustomLink  to='/info' > Info </CustomLink>
 
             </Header>
 
